@@ -1,0 +1,20 @@
+section{
+    width: auto;
+    height: auto;
+}
+img{
+    width:400px;
+}
+#search{
+    height: 30px;
+}
+#image{
+    position: absolute;
+}
+input{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+label{
+    margin-left: 30px;
+}

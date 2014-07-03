@@ -1,0 +1,76 @@
+section{
+    width: auto;
+    height: auto;
+}
+section h2{
+    color: #3B5997;
+    margin-left: 5px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+div.laptop{
+    background-image: url(lap.jpg);
+    background-size: cover;
+    width:200px;
+    height:200px;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    border:1px solid #3B5997;
+    border-radius: 10px 10px 0px 10px;
+}
+div.laptop:hover{
+    opacity: 0.85;
+    border:1px solid red;
+}
+div.laptop p{
+    position: absolute;
+    font-family: Arial;
+    color: #3B5997;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+div.laptop p.specs{
+    font-size: 9px;
+    margin-top: 30px;
+
+}
+div.price{
+    width: 90px;
+    height: 35px;
+    background: #2C425A;
+    margin-left: 110px;
+    margin-top: 165px;
+    border-top-left-radius: 10px;
+}
+div.price p.price-par{
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+form{
+    position: absolute;
+    display: inline-block;
+    margin-top: -260px;
+    margin-left: 10px;
+    height: 465px;
+    width: 200px;
+    background: #F7FCFF;
+    border:1px solid #3B5997;
+}
+label{
+    display: block;
+    color:#3B5997;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+}
+input{
+    margin-top: 10px;
+    width: 98%;
+}

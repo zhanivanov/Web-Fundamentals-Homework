@@ -1,0 +1,98 @@
+section{
+    overflow: hidden;
+    width: 900px;
+    height: auto;
+    background: #3B5997;
+}
+#head{
+    text-align: center;
+    color:white;
+}
+span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    margin-top: -10px;
+}
+h3{
+    font-size: 25px;
+    margin-top: -35px;
+}
+h6{
+    margin-top: -20px;
+    font-size: 13px;
+}
+form{
+    float:left;
+}
+input,select{
+    margin: 5px 0px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #666;
+}
+#female{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+#male{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+#other{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.left input{
+    width: 150px;
+    height: 25px;
+}
+#birthday{
+    width: 220px;
+}
+label{
+    margin-left: 5px;
+    color: white;
+}
+input[type=reset]{
+    height: 40px;
+    width: 355px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3B5997;
+    font-size: 20px;
+}
+fieldset{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+legend{
+    color: white;
+    text-align: center;
+}
+
+.right input,select{
+    width: 150px;
+    height: 25px;
+}
+.right input.small-input{
+    width: 70px;
+}
+#text-box{
+    width: 98%;
+    height: 50px;
+    margin-left: 5px;
+}
+input[type=submit]{
+    width: 98%;
+    margin-left: 10px;
+    height: 40px;
+    color: #3B5997;
+    font-size: 20px;
+}

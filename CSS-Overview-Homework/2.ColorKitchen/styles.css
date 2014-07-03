@@ -1,0 +1,188 @@
+body{
+    background: url("colorful_dots_on_black.jpg");
+}
+body>header{
+    margin: -10px auto;
+    width: 100%;
+    background: #008000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color:#FFFF00;
+    height: 40px;
+}
+body>header::before{
+    height: 40px;
+    width: 33%;
+    display: block;
+    content: "";
+    float: left;
+    background: #FF0000;
+}
+body>header::after{
+    height: 40px;
+    width: 33%;
+    display: block;
+    content: "";
+    float: right;
+    background: #0000FF;
+}
+aside{
+    background-color: rgba(255,255,255,0.8);
+    width: 200px;
+    float: left;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+aside nav header{
+    font-size:23px;
+    text-decoration: underline;
+}
+aside nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+aside nav ul li a:visited{
+    color: gray;
+}
+aside nav ul{
+    list-style-image: url('icon.png');
+}
+aside nav ul li{
+    margin-bottom: 10px;
+}
+aside nav ul li:nth-child(1):hover{
+    background: red;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+aside nav ul li:nth-child(2):hover{
+    background: #FFA500;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+aside nav ul li:nth-child(3):hover{
+    background: #FFFF00;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+aside nav ul li:nth-child(4):hover{
+    background: #008000;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+aside nav ul li:nth-child(5):hover{
+    background: #0000FF;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+aside nav ul li:nth-child(6):hover{
+    background: #800080;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-left: -30px;
+    padding-left: 8px;
+    width: 110%;
+}
+article{
+    width: 800px;
+    background-color: rgba(255,255,255,0.8);
+    margin-left: 280px;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+#webColors{
+    color:white;
+    background: #FF0000;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+#webSafeColors{
+    color:#000000;
+    background: #FFA500;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+#RGB{
+    color:#000000;
+    background: #FFFF00;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+#RGBA{
+    color:#fff;
+    background: #008000;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+#HSLHSV{
+    color:#fff;
+    background: #0000FF;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+#lorem{
+    color:#fff;
+    background: #800080;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+    height: 30px;
+}
+section article div:first-line{
+    font-style: italic;
+}
+section article div:first-letter{
+    font-size: 40px;
+    font-style: italic;
+}
+section article footer a{
+    font-style: italic;
+    font-size: 15px;
+    color:gray;
+}
+span:lang(la){
+    font-style: italic;
+    color: #01028C;
+}
+span:lang(la)::before{
+    content: "\"";
+    font-style: italic;
+    color: #01028C;
+}
+span:lang(la)::after{
+    content: "\"";
+    font-style: italic;
+    font-weight: bold;
+    color: #01028C;
+}

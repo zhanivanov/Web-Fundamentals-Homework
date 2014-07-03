@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>2.FlightOrder</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+            <h2>FLIGHT ORDER</h2>
+        <form method="post">
+            <div id="left">
+                <label for="departure">From</label>
+                <select name="departure" id="departure" required="required">
+                    <option selected="selected">enter a city</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Athens">London</option>
+                        <option value="Bucharest">Munchen</option>
+                        <option value="Belgrad">Madrid</option>
+                        <option value="Skopje">Paris</option>
+                        <option value="Istanbul">Istanbul</option>
+                </select>
+                <br>
+                <br>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" id="departure-date">
+
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date">
+                <br>
+                <label for="12+" class="numbers-label">12+</label>
+                <label for="2-12" class="numbers-label">2-12</label>
+                <label for="0-2" class="numbers-label">0-2</label>
+
+                <br>
+                <input type="number" id="12+" class="numbers">
+                <input type="number" id="2-12" class="numbers">
+                <input type="number" id="0-2" class="numbers">
+            </div>
+
+            <div id="right">
+                <label for="arrival">From</label>
+                <select name="arrival" id="arrival" required="required">
+                    <option selected="selected">enter a city</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Athens">London</option>
+                    <option value="Bucharest">Munchen</option>
+                    <option value="Belgrad">Madrid</option>
+                    <option value="Skopje">Paris</option>
+                    <option value="Istanbul">Istanbul</option>
+                </select>
+                <br>
+                <input type="checkbox" id="prefer-directs">
+                <label for="prefer-directs" id="prefer-label">Prefer Directs</label>
+                <br>
+                <label for="departure-date-start">Time Interval</label>
+                <input type="time" id="departure-date-start" class="start-end-time">
+                <input type="time" id="departure-date-end" class="start-end-time">
+
+                <label for="return-date-start">Time Interval</label>
+                <input type="time" id="return-date-start" class="start-end-time">
+                <input type="time" id="return-date-end" class="start-end-time">
+
+                <label for="choose-class">Choose Class</label>
+                <select id="choose-class">
+                    <option selected="selected">Economy</option>
+                    <option>Business</option>
+                </select>
+                <br>
+                <button>Search</button>
+            </div>
+        </form>
+
+    </section>
+</body>
+</html>

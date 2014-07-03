@@ -1,0 +1,84 @@
+#outer{
+    width: 500px;
+    height: 500px;
+    background:#FFFF00;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+#nose{
+    width: 80px;
+    height: 80px;
+    background: #FF0000;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: 210px;
+}
+#left{
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin-top: -200px;
+    margin-left: 80px;
+}
+#right{
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin-top: -104px;
+    margin-left: 305px;
+}
+#left-iris{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#right-iris{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+#mouth{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 60px;
+    border: 2px solid #000000;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+#right-tooth{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #000000;
+    margin-top: -1px;
+    margin-left: 71px;
+}
+#left-tooth{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #000000;
+    margin-top: -1px;
+    margin-left: 124px;
+}

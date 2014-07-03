@@ -1,0 +1,14 @@
+table{
+    border:1px solid black;
+}
+table tr td,th{
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+}
+table tr td table{
+    margin: 5px 5px 5px 5px;
+}
+table tr td table thead th{
+    height: 50px;
+}

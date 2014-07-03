@@ -1,0 +1,68 @@
+table{
+    font-family: Tahoma;
+    background: #234465;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+td{
+    padding: 15px 15px 15px 15px;
+}
+table tr td{
+    text-align: right;
+    vertical-align: middle;
+}
+input{
+    height: 32px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: none;
+    background-color: #4ca0db;
+    border-radius:5px;
+}
+ul{
+    list-style-type: none;
+}
+table tr td ul li{
+    padding: 10px 10px 10px 10px;
+    list-style-type:none;
+    display:inline-block;
+    margin-left:20px;
+    vertical-align:middle;
+}
+ul.drop-down-menu {
+    position: absolute;
+    margin-top: 8px;
+    display: none;
+    background-color: #1d3955;
+    width: 320px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+}
+.notification{
+    margin-right: 20px;
+}
+.searchButton{
+    position: relative;
+    margin-left: -7px;
+    vertical-align: middle;
+    height: 38px;
+    width: 38px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background:url(search.png);
+    background-size: cover;
+}
+table tr td ul li:hover>a+ul{
+    display: block;
+}
+table tr td ul li ul.drop-down-menu:hover{
+    background:#ff9c00;
+    cursor:pointer;
+}

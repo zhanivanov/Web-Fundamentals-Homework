@@ -1,0 +1,66 @@
+section{
+    width: 400px;
+    height: 350px;
+    background: pink;
+}
+label{
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+select{
+    width: 165px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+input {
+    width: 165px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#left{
+    float:left;
+}
+#right{
+    float:left;
+}
+#prefer-directs{
+    float:left;
+    margin-left: -65px;
+}
+#prefer-label{
+    float: left;
+    margin-left: -80px;
+}
+.start-end-time{
+    width: 75px;
+    float: left;
+    margin-right: -5px;
+    margin-left: 10px;
+}
+.numbers{
+    width: 45px;
+    float:left;
+    margin-right: 0px;
+    margin-top: -4px;
+}
+.numbers-label{
+    margin-right: 30px;
+    display: inline-block;
+    float:left;
+}
+button{
+    width: 165px;
+    height: 30px;
+    margin: 5px 10px 0px 10px;
+}
