@@ -1,0 +1,25 @@
+@font-face{
+    font-family: Animated;
+    src: url("resources/Animated.ttf");
+}
+#wrapper{
+    width: 900px;
+    height: 600px;
+    background:
+    url("resources/AlexHula.png") no-repeat fixed 460px 200px,
+    url("resources/NakovHula.png") no-repeat fixed 400px 150px,
+    url("resources/TediHula.png") no-repeat fixed 250px 350px,
+    url("resources/PetiaHula.png") no-repeat fixed 180px 180px,
+    url("resources/VladoGHula.png") no-repeat fixed 50px 200px,
+    url("resources/VladoKHula.png") no-repeat fixed 670px 200px,
+    url("resources/HawaiiBackground.png") no-repeat,
+    -webkit-radial-gradient(26% 24%, circle closest-corner, #eaebe4, #edff47 41%,#e8e7dc 59%,#3a75cf 79%);
+}
+#wrapper span{
+    font-family: Animated;
+    color: #FDBC21;
+    font-size: 32pt;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}

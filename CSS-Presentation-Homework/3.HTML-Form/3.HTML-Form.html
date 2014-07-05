@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <title>3.HTML-Form</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form method="post" action="#">
+            <header>
+                <h4>Step 1: Your details</h4>
+            </header>
+            <section>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="First and last name"/>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@domain.com"/>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="eg. +447500000000"/>
+                </div>
+            </section>
+
+            <header>
+                <h4>Step 1: Delivery address</h4>
+            </header>
+            <section>
+                <div>
+                    <label for="address" id="address-label">Address</label>
+                    <textarea  rows="5" name="address" id="address"></textarea>
+                </div>
+                <div>
+                    <label for="post-code">Post code</label>
+                    <input type="text" name="post-code" id="post-code"/>
+                </div>
+                <div>
+                    <label for="country">Contry</label>
+                    <input type="text" name="country" id="country"/>
+                </div>
+            </section>
+
+            <header>
+                <h4>Step 1: Card details</h4>
+            </header>
+            <section>
+                <div>
+                    <span>Card type</span>
+                    <input type="radio" name="radio-group" id="visa"/>
+                    <label for="visa" class="radio-labels" id="visa-label">VISA</label>
+                    <input type="radio" name="radio-group" id="amex"/>
+                    <label for="amex" class="radio-labels" id="amex-label">AmEx</label>
+                    <input type="radio" name="radio-group" id="mastercard"/>
+                    <label for="mastercard" class="radio-labels" id="mastercard-label">Matercard</label>
+                </div>
+                <div>
+                    <label for="card-num">Card number</label>
+                    <input type="text" name="card-num" id="card-num"/>
+                </div>
+                <div>
+                    <label for="card-name">Name on card</label>
+                    <input type="text" name="card-name" id="card-name" />
+                </div>
+            </section>
+
+            <button type="submit">BUY IT!</button>
+        </form>
+    </div>
+</body>
+</html>
