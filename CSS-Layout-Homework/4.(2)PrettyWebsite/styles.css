@@ -1,0 +1,125 @@
+header,section,article,a,h2,h5,ul,li,nav,main,footer,p,body{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+}
+#wrapper{
+    font-family: Arial, 'Tahoma', sans-serif;
+    font-size: 20px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#wrapper header #header-background{
+    height: 270px;
+    background-image: url("headerBackground.jpg");
+    background-size: cover;
+}
+#wrapper header nav{
+    background: linear-gradient(#EFEFEF,#D9D9D9);
+    border-bottom: 1px solid white;
+    box-shadow: 0px 2px #D9D9D9;
+}
+#wrapper header nav ul{
+    list-style: none;
+}
+#wrapper header nav ul li{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 10px 0px;
+    border-left: 1px solid white;
+    text-align: center;
+}
+#wrapper header nav ul li a{
+    text-decoration: none;
+    color:#545252;
+    padding: 10px 25px;
+}
+#wrapper header nav ul li:hover{
+    background:#B9B9B9;
+    color:#FFFFFF;
+}
+#wrapper main section{
+    float: left;
+    width: 600px;
+    border:2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+#wrapper main section h2{
+    color: #83BD2A;
+    margin-bottom: 20px;
+}
+#wrapper main section p{
+    font-size: 1rem;
+}
+#wrapper main section article{
+    margin-bottom: 20px;
+}
+#wrapper main section div.article-image{
+    display: inline-block;
+    margin-right: 8px;
+}
+#wrapper main section div.article-text{
+    display: inline-block;
+    width: 430px;
+    position: relative;
+    top:-25px
+}
+#wrapper main section div h5{
+    margin-bottom: 10px;
+}
+#wrapper aside{
+    width: 180px;
+    position: absolute;
+    left: 680px;
+    top: -830px !important;
+    border:2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    top:-235px;
+    font-size: 1rem;
+    overflow: visible;
+    margin-right: 10px;
+}
+#wrapper aside h2{
+    color: #83BD2A;
+    margin-bottom: 15px;
+}
+#wrapper aside p{
+    margin-bottom: 10px;
+}
+#wrapper aside a{
+    color: #83BD2A;
+    font-weight: bold;
+}
+#wrapper aside:first-of-type{
+     background-color: #EEEEEE;
+}
+#wrapper footer{
+    width: 900px;
+    background: linear-gradient(#ACDD45,#8CCB19);
+    box-shadow: 0px -1px #ACDD45;
+    border-top: 1px solid #CFF2B2;
+}
+#wrapper footer p{
+    font-size: 0.9rem;
+    margin-left: 30px;
+    padding: 30px 0px 50px 60px;
+}
+#wrapper footer a{
+    color: #000000;
+}

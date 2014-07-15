@@ -1,0 +1,32 @@
+@media all and (max-width: 890px){
+    #wrapper{
+        width: 100%;
+    }
+    #wrapper footer{
+        width: 100%;
+    }
+    #wrapper aside{
+        position: static;
+        width: 87%;
+        margin-left: 20px;
+    }
+    #wrapper main section{
+        width: 85%;
+    }
+    #wrapper header nav ul{
+        margin-left: 10%;
+    }
+}
+@media all and (max-width: 730px){
+    #wrapper header nav ul{
+        margin-left: 0;
+    }
+    #wrapper header nav ul li{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #FFFFFF;
+    }
+    #wrapper header nav ul li a{
+        width: 100%;
+    }
+}

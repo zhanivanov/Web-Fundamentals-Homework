@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body>header{
+    background: #234465;
+    color: white;
+    font-family: Arial, 'Tahoma', sans-serif;
+    width: 1200px;
+}
+body>header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body>header div{
+    display: inline-block;
+}
+body>header>div>a>img{
+    margin: 15px;
+}
+body>header div>a>span{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    top:15px;
+    left: 255px;
+}
+body>header #search-wrapper{
+    text-align: right;
+    float: right;
+    display: inline-block;
+    padding: 10px 0;
+}
+body>header #search-wrapper #notification{
+    background: url("notificationsIcon.png");
+    background-repeat: no-repeat;
+    background-position: 18px 2px;
+    padding: 5px;
+    padding-right: 30px;
+    font-size: 0.8rem;
+}
+body>header #search-wrapper #notification>a:hover{
+    text-decoration: underline;
+}
+body>header #search-wrapper #user{
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+body>header #search-wrapper #user>a:hover{
+    text-decoration: underline;
+}
+body>header #search-wrapper #user::after{
+    position: relative;
+    top:-2px;
+    content: "▼";
+    font-size: 0.5rem;
+    margin-left: 5px;
+}
+body>header #search-wrapper input{
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:0;
+    border-right: 1px solid gray;
+}
+body>header #search-wrapper #button{
+    position: relative;
+    top:9px;
+    left: -5px;
+    background: url("glass.png") no-repeat;
+    background-position: 4px 4px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 26px;
+    height: 26px;
+    margin-right: 50px;
+}
+body>header #search-wrapper #button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+body>header>nav{
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top:65px;
+    left:470px;
+}
+body>header>nav ul{
+    display: inline-block;
+    list-style: none;
+}body>header>nav ul li a{
+     padding: 6px
+ }
+body>header>nav>ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+body>header>nav>ul>li:hover{
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+nav>ul li ul {
+    width: 240px;
+    background: #234465;
+    text-align: left;
+    padding: 0px;
+    position: absolute;
+    top:100%;
+}
+nav>ul li ul li {
+    position: relative;
+    width: 95%;
+}
+nav>ul li ul li a {
+    text-align: left;
+    padding: 5px 40px;
+    color: #fff;
+}
+nav>ul li ul li:hover {
+    background: #FF9C00;
+}
+nav ul li ul{
+    display: none;
+}
+body>header>nav>ul li:nth-child(2):hover>ul{
+    list-style: none;
+    display: block;
+}
